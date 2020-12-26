@@ -2,6 +2,8 @@
  * The publicly exposed MathQuill API.
  ********************************************************/
 
+const P = require('pjs').P;
+
 var API = {}, Options = P(), optionProcessors = {}, Progenote = P(), EMBEDS = {};
 
 /**
