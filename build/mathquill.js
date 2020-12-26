@@ -1,5 +1,5 @@
 /**
- * MathQuill v0.10.2, by Han, Jeanine, and Mary
+ * MathQuill v0.10.3, by Han, Jeanine, and Mary
  * http://mathquill.com | maintainers@mathquill.com
  *
  * This Source Code Form is subject to the terms of the
@@ -920,8 +920,6 @@ var Controller = P(function(_) {
  * The publicly exposed MathQuill API.
  ********************************************************/
 
-const P = require('./pjs').P;
-
 var API = {}, Options = P(), optionProcessors = {}, Progenote = P(), EMBEDS = {};
 
 /**
@@ -951,7 +949,7 @@ function MathQuill(el) {
   return MQ1(el);
 };
 MathQuill.prototype = Progenote.p;
-MathQuill.VERSION = "v0.10.2";
+MathQuill.VERSION = "v0.10.3";
 MathQuill.interfaceVersion = function(v) {
   // shim for #459-era interface versioning (ended with #495)
   if (v !== 1) throw 'Only interface version 1 supported. You specified: ' + v;

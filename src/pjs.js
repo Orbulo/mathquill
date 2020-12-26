@@ -84,5 +84,3 @@ var P = (function(prototype, ownProperty, undefined) {
 	// as a minifier optimization, we've closured in a few helper functions
 	// and the string 'prototype' (C[p] is much shorter than C.prototype)
 })('prototype', ({}).hasOwnProperty);
-
-exports.P = P;
