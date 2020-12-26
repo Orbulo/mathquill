@@ -266,6 +266,7 @@ MathQuill.noConflict = function() {
   return MathQuill;
 };
 module.exports = MathQuill;
+window.MathQuill = MathQuill;
 
 function RootBlockMixin(_) {
   var names = 'moveOutOf deleteOutOf selectOutOf upOutOf downOutOf'.split(' ');
