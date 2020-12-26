@@ -1,5 +1,5 @@
 .mq-root-block, .mq-math-mode .mq-root-block {
-  .inline-block;
+  .inline-block();
   width: 100%;
   padding: 2px;
   .box-sizing(border-box); // supported by IE8+: http://caniuse.com/css3-boxsizing
@@ -14,9 +14,9 @@
   font-size: 115%;
   line-height: 1;
 
-  .inline-block;
+  .inline-block();
   .mq-non-leaf, .mq-scaled {
-    .inline-block;
+    .inline-block();
   }
 
   // TODO: dasherize non-symbola
@@ -50,7 +50,7 @@
 
   .mq-text-mode {
     display: inline-block;
-    white-space: pre;  
+    white-space: pre;
   }
 
   .mq-text-mode.mq-hasCursor {
@@ -141,7 +141,7 @@
 
   .mq-binary-operator {
     padding: 0 @operator-padding;
-    .inline-block;
+    .inline-block();
   }
 
   ////
@@ -311,7 +311,7 @@
     display: block;
     text-align: center;
   }
-  
+
   .mq-hat-prefix {
     display: block;
     text-align: center;
